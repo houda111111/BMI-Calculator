@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, royalblue, blue,  darkblue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    .heading {
+        color: #e0f2ff;
+    }
+    p {
+        color: #e0f2ff;
+        padding: 10px 0;
+    }
+    .input {
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin: 10px 0;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        &::placeholder {
+            color: white;
+        }
+    }
+
+    .btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+        color: #e0f2ff;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            background: rgba(255, 255, 255, 0.1)
+        }
+    }
+    h4 {
+        color: #e0f2ff;
+        letter-spacing: 0.7px;
+
+        #bmi-info {
+            padding-left: 5px;
+        }
+    }
+}
