@@ -7,7 +7,6 @@ The project calculates the user's BMI (Body Mass Index) based on height and weig
 ## Features
 
 - Calculate BMI
-- Modern responsive design
 - Glassmorphism UI
 - Show weight condition:
   - Underweight
